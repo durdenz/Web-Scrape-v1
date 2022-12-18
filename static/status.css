@@ -1,0 +1,9 @@
+.status {
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: auto 100%;
+    min-height: auto;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}

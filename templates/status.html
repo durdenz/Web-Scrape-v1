@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flag Status</title>
+    <link rel="stylesheet" href="/static/status.css">
+</head>
+<body>
+    <div class="status" style="background-image: url('{{result.FlagURL}}');">
+        <h1>Flag Status</h1>
+        <h2>{{result.Status}}</h2>
+        <h2>{{result.Date}}</h2>
+        <br>
+        <button> <a href="/my-link/">Click to Update</a> </button>
+    </div>
+</body>
+</html>
